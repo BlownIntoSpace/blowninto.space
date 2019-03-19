@@ -1,0 +1,49 @@
+/*
+ * Copyright (c) Bailey Allen 2019.
+ */
+
+body {
+    margin: 0;
+    padding: 0.5%;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: monospace
+}
+
+h1, h2, h3, h4 {
+    margin: 1em 0.5em;
+    line-height: 1.25
+}
+
+a {
+    color: #404040;
+    text-decoration:underline;
+}
+
+a:visited {
+    color: #404040;
+    text-decoration:underline dotted;
+}
+
+a:hover {
+    color: #909090;
+    text-decoration:underline dotted;
+}
+
+a:active {
+    color: #D3D3D3;
+    text-decoration: underline dotted #909090;
+}
+
+ul, ol {
+    margin: 1em 0;
+    padding-left: 40px
+}
+
+p, figure {
+    margin: 1em 0
+}
+
+a img {
+    border: none
+}
