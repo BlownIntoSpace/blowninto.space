@@ -1,0 +1,30 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i');
+@import url('https://cdn.blowninto.space/fonts/constructium.ttf');
+
+/* CSS */
+body {
+    font-family: 'Crimson Text', 'Constructium', sans-serif;
+}
+
+
+a:link {
+    color: #ff7733;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #ff9966;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff4433;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: #ffbf66;
+    background-color: transparent;
+}
