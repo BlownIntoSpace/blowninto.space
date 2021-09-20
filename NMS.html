@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>No Man Sky Portal Address Widget</title>
+</head>
+<style>
+    @font-face {
+        font-family: "Glyph";
+        src: url("/fonts/NMS_Glyphs.ttf");
+    }
+    h1 {
+        font-family: "Glyph";
+        font-weight: normal;
+        font-size: 50pt;
+        margin: 0px;
+    }
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+</style>
+<body>
+<!-- your content here... -->
+
+
+<h1 id="addr">error, no address</h1>
+<script>
+    // running on https://www.example.com?address=n1
+    let params = new URLSearchParams(location.search);
+    document.getElementById("addr").innerHTML = params.get('address') // => "n1"
+
+</script>
+
+</body>
+</html>
