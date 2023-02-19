@@ -13,6 +13,7 @@
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
     <style>
+
         html, body {
             height: 100%;
             margin: 0;
@@ -33,7 +34,9 @@
 
     var bounds = [[0,0], [1189,841]];
     var image = L.imageOverlay('https://blowninto.space/worldbuilding/hashtaria/hashtaria.jpg', bounds).addTo(map);
-    var svg = L.imageOverlay('https://blowninto.space/worldbuilding/hashtaria/text.svg', bounds).addTo(map);
+
+    L.marker([50.5, 30.5]).addTo(map);
+
     map.fitBounds(bounds);
 
 
