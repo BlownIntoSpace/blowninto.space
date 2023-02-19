@@ -29,9 +29,6 @@
 
 <div id="map" style="width: 100%; height: 100%;"></div>
 <script>
-    // for use with browserify / webpack
-    var L = require('leaflet')
-    L.RasterCoords = require('leaflet-rastercoords')
 
     var img = [
         11352,  // original width of image (here from `example/karta.jpg`)
@@ -61,7 +58,7 @@
     })
 
     // the tile layer containing the image generated with `gdal2tiles --leaflet -p raster -w none <img> tiles`
-    L.tileLayer('./tiles/{z}/{x}/{y}.png', {
+    L.tileLayer('https://blowninto.space/worldbuilding/hashtaria/tiles/{z}/{x}/{y}.png', {
         noWrap: true,
         bounds: rc.getMaxBounds(),
         maxNativeZoom: rc.zoomLevel()
