@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script src="https://raw.githubusercontent.com/commenthol/leaflet-rastercoords/master/rastercoords.js"></script>
 
     <style>
 
@@ -60,7 +61,7 @@
     })
 
     // the tile layer containing the image generated with `gdal2tiles --leaflet -p raster -w none <img> tiles`
-    L.tileLayer('/tiles/{z}/{x}/{y}.png', {
+    L.tileLayer('./tiles/{z}/{x}/{y}.png', {
         noWrap: true,
         bounds: rc.getMaxBounds(),
         maxNativeZoom: rc.zoomLevel()
