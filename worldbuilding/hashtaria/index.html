@@ -7,8 +7,6 @@
 
     <title>Hashtaria</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
-
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
@@ -33,7 +31,7 @@
     });
 
     var bounds = [[0,0], [1189,841]];
-    var image = L.imageOverlay('https://blowninto.space/worldbuilding/hashtaria/hashtaria.webp', bounds).addTo(map);
+    var image = L.imageOverlay('https://blowninto.space/worldbuilding/hashtaria/hashtaria.jpg', bounds).addTo(map);
 
     map.fitBounds(bounds);
 
