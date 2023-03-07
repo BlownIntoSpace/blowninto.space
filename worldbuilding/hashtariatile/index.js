@@ -45,7 +45,7 @@
     // the tile layer containing the image generated with gdal2tiles --leaflet ...
     L.tileLayer('./tiles/{z}/{x}/{y}.png', {
       noWrap: true,
-      attribution: 'Bailey Allen and Alec Jordan
+      attribution: 'Bailey Allen and Alec Jordan'
     }).addTo(map)
 
   $.getJSON('map.geojson', function(data) {
