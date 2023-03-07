@@ -1,44 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <base target="_top">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<html>
+  <head>
     <title>Hashtaria</title>
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <!-- load jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <!-- load Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Load leaflet.extra-markers from local directory -->
+    <script src="markers/leaflet.extra-markers.min.js"></script>
+    <link rel="stylesheet" href="markers/leaflet.extra-markers.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
+      html, body, #map {
+        background-color: #fff
+      }
     </style>
-
-
-</head>
-<body>
-
-
-
-<div id="map" style="width: 100%; height: 100%;"></div>
-<script>
-    var map = L.map('map', {
-        crs: L.CRS.Simple,
-    });
-
-    var bounds = [[0,0], [1189,841]];
-    var image = L.imageOverlay('https://blowninto.space/worldbuilding/hashtaria/hashtaria.jpg', bounds).addTo(map);
-
-    map.fitBounds(bounds);
-
-
-</script>
-
-
-
-</body>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="rastercoords.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
