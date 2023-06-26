@@ -40,15 +40,15 @@
     // assign map and image dimensions
     var rc = new L.RasterCoords(map, img)
 
-    map.on('zoomend', function () {
-      if (map.getZoom() < 7 && map.hasLayer(cities)) {
-        map.removeLayer(cities);
-      }
-      if (map.getZoom() >= 7 && map.hasLayer(cities) == false)
-      {
-        map.addLayer(cities);
-      }
-    });
+    //map.on('zoomend', function () {
+    //  if (map.getZoom() < 7 && map.hasLayer(cities)) {
+    //    map.removeLayer(cities);
+    //  }
+    //  if (map.getZoom() >= 7 && map.hasLayer(cities) == false)
+    //  {
+    //    map.addLayer(cities);
+    //  }
+    //});
 
 
 }
