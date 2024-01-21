@@ -22,7 +22,7 @@
 <GroundOverlay>
 <drawOrder>0</drawOrder>
 <Icon>
-<href>../../0/0/0.webp</href>
+<href>../../0/0/0.jpg</href>
 </Icon>
 <LatLonBox>
 <west>90.00000000000000</west>
@@ -47,7 +47,7 @@
 <GroundOverlay>
 <drawOrder>2</drawOrder>
 <Icon>
-<href>../../1/0/0.webp</href>
+<href>../../1/0/0.jpg</href>
 </Icon>
 <LatLonBox>
 <west>90.00000000000000</west>
@@ -72,7 +72,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/0/0.webp</href>
+<href>../../2/0/0.jpg</href>
 </Icon>
 <LatLonBox>
 <west>90.00000000000000</west>
@@ -170,7 +170,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/0/1.webp</href>
+<href>../../2/0/1.jpg</href>
 </Icon>
 <LatLonBox>
 <west>90.00000000000000</west>
@@ -268,7 +268,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/1/0.webp</href>
+<href>../../2/1/0.jpg</href>
 </Icon>
 <LatLonBox>
 <west>119.14355091611179</west>
@@ -366,7 +366,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/1/1.webp</href>
+<href>../../2/1/1.jpg</href>
 </Icon>
 <LatLonBox>
 <west>119.14355091611179</west>
@@ -465,7 +465,7 @@
 <GroundOverlay>
 <drawOrder>2</drawOrder>
 <Icon>
-<href>../../1/0/1.webp</href>
+<href>../../1/0/1.jpg</href>
 </Icon>
 <LatLonBox>
 <west>90.00000000000000</west>
@@ -490,7 +490,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/0/2.webp</href>
+<href>../../2/0/2.jpg</href>
 </Icon>
 <LatLonBox>
 <west>90.00000000000000</west>
@@ -588,7 +588,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/0/3.webp</href>
+<href>../../2/0/3.jpg</href>
 </Icon>
 <LatLonBox>
 <west>90.00000000000000</west>
@@ -650,7 +650,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/1/2.webp</href>
+<href>../../2/1/2.jpg</href>
 </Icon>
 <LatLonBox>
 <west>119.14355091611179</west>
@@ -748,7 +748,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/1/3.webp</href>
+<href>../../2/1/3.jpg</href>
 </Icon>
 <LatLonBox>
 <west>119.14355091611179</west>
@@ -811,7 +811,7 @@
 <GroundOverlay>
 <drawOrder>2</drawOrder>
 <Icon>
-<href>../../1/1/0.webp</href>
+<href>../../1/1/0.jpg</href>
 </Icon>
 <LatLonBox>
 <west>148.28710183222358</west>
@@ -836,7 +836,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/2/0.webp</href>
+<href>../../2/2/0.jpg</href>
 </Icon>
 <LatLonBox>
 <west>148.28710183222358</west>
@@ -934,7 +934,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/2/1.webp</href>
+<href>../../2/2/1.jpg</href>
 </Icon>
 <LatLonBox>
 <west>148.28710183222358</west>
@@ -1032,7 +1032,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/3/0.webp</href>
+<href>../../2/3/0.jpg</href>
 </Icon>
 <LatLonBox>
 <west>177.43065274833535</west>
@@ -1094,7 +1094,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/3/1.webp</href>
+<href>../../2/3/1.jpg</href>
 </Icon>
 <LatLonBox>
 <west>177.43065274833535</west>
@@ -1157,7 +1157,7 @@
 <GroundOverlay>
 <drawOrder>2</drawOrder>
 <Icon>
-<href>../../1/1/1.webp</href>
+<href>../../1/1/1.jpg</href>
 </Icon>
 <LatLonBox>
 <west>148.28710183222358</west>
@@ -1182,7 +1182,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/2/2.webp</href>
+<href>../../2/2/2.jpg</href>
 </Icon>
 <LatLonBox>
 <west>148.28710183222358</west>
@@ -1280,7 +1280,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/2/3.webp</href>
+<href>../../2/2/3.jpg</href>
 </Icon>
 <LatLonBox>
 <west>148.28710183222358</west>
@@ -1342,7 +1342,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/3/2.webp</href>
+<href>../../2/3/2.jpg</href>
 </Icon>
 <LatLonBox>
 <west>177.43065274833535</west>
@@ -1404,7 +1404,7 @@
 <GroundOverlay>
 <drawOrder>4</drawOrder>
 <Icon>
-<href>../../2/3/3.webp</href>
+<href>../../2/3/3.jpg</href>
 </Icon>
 <LatLonBox>
 <west>177.43065274833535</west>
